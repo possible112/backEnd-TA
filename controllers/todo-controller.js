@@ -22,10 +22,10 @@ module.exports = {
       const TodoId = req.params.id; // Mengambil ID pengguna dari parameter permintaan
 
       // Mengambil pengguna berdasarkan ID
-      const Todo = await Todo.findByPk(TodoId);
+      const Todos = await Todo.findByPk(TodoId);
 
-      if (Todo) {
-        res.status(200).json(Todo);
+      if (Todos) {
+        res.status(200).json(Todos);
       } else {
         res.status(404).json({
           message: "Todo tidak ditemukan",
