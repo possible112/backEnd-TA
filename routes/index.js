@@ -8,7 +8,8 @@ const verifyToken = require("../middleware/auth.js")
 
 route.get("/", (req, res) => {
   res.json({
-    message: "selamat datang di express sequelize"
+    message: "Untuk melihat endpoints penggunaan API ini dapat mengunjungi",
+    link: "https://github.com/possible112/backEnd-TA.git"
   })
 })
 
