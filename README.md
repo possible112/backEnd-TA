@@ -14,7 +14,9 @@ Endpoints
   email as string
   password as string
 
-  Response : https://github.com/possible112/backEnd-TA/issues/1#issue-1990435110
+
+  Response : ![Alt Text](img/Register.png)
+
 
   _Login_
 
