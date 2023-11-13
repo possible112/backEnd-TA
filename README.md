@@ -32,7 +32,10 @@ Endpoints
   email as string
   password as string
 
-  Response : https://github.com/possible112/backEnd-TA/issues/1#issue-1990435110
+  Response :
+
+  ![Alt Text](img/Login.png)
+
 
   _See All Users_
 
@@ -42,6 +45,8 @@ Endpoints
 
   Response :
 
+  ![Alt Text](img/getAllUser.png)
+
   _See User by Id_
 
   URL : (/users/:id)
@@ -49,6 +54,8 @@ Endpoints
   Method : GET
 
   Response :
+
+  ![Alt Text](img/getAllUser.png)
   
   _Delete User by Id_
 
@@ -57,6 +64,8 @@ Endpoints
   Method : DELETE
 
   Response :
+
+  ![Alt Text](img/deleteUser.png)
 
   _Update User by Id_
 
@@ -71,6 +80,8 @@ Endpoints
   password as string
 
   Response :
+
+  ![Alt Text](img/updateUser.png)
 
 **Todos**
 
@@ -89,6 +100,8 @@ Endpoints
 
   Response : 
 
+  ![Alt Text](img/createTodo.png)
+
   _See All Todos_
 
   URL : (/todos)
@@ -98,6 +111,8 @@ Endpoints
   Headers : Authorization Bearer <token>
 
   Response :  
+
+  ![Alt Text](img/getAllTodos.png)
 
   _See Todo by Id_
 
@@ -109,6 +124,8 @@ Endpoints
 
   Response :  
 
+  ![Alt Text](img/getTodoById.png)
+
   _Delete All Todos_
 
   URL : (/todos)
@@ -118,6 +135,8 @@ Endpoints
   Headers : Authorization Bearer <token>
 
   Response :  
+
+  ![Alt Text](img/deleteAllTodos.png)
 
   _Delete Todo by Id_
 
@@ -129,6 +148,8 @@ Endpoints
 
   Response :  
 
+  ![Alt Text](img/deleteTodoById.png)
+
   _Update Todo by Id_
 
   URL : (/todos/:id)
@@ -138,6 +159,8 @@ Endpoints
   Headers : Authorization Bearer <token>
 
   Response : 
+
+  ![Alt Text](img/updateTodo.png)
   
 
 
