@@ -15,7 +15,9 @@ Endpoints
   password as string
 
 
-  Response : ![Alt Text](img/Register.png)
+  Response : 
+  
+  ![Alt Text](img/Register.png)
 
 
   _Login_
